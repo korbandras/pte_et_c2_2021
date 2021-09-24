@@ -1,5 +1,9 @@
 def time():
     num = int(input('Insert a number (>0): '))
+    if num == 0:
+        print('Now')
+    elif num < 0:
+        print('Invalid number')
     yr = num // (60*60*24*365)
     num = num % (365*24*3600)
     day2 = num // (60*60*24)
