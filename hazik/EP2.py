@@ -19,7 +19,7 @@ def f3():
     for sor in be:
         sor=sor.strip()
         if len(sor)>10:
-            print("%s hossza: %d\n" %(sor,len(sor)-1))
+            print("%s hossza: %d\n" %(sor,len(sor)))
 #nem tudom hova tűnt a 4. feladat
 #szobafestes
 def f5():
