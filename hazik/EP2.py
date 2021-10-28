@@ -17,6 +17,7 @@ def f2():
 def f3():
     be=open("EP2_3.txt","r")
     for sor in be:
+        sor=sor.strip()
         if len(sor)>10:
             print("%s hossza: %d\n" %(sor,len(sor)-1))
 #nem tudom hova tűnt a 4. feladat
